@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisteredData">
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Full Name"/>
+    <TextView
+        android:id="@+id/reg_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="full name is basma"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Email"/>
+    <TextView
+        android:id="@+id/reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="basma@basma.com"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Mobile Number"/>
+    <TextView
+        android:id="@+id/reg_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="01111111111"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Hospital Name"/>
+    <TextView
+        android:id="@+id/reg_Hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My Hospital"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="University"/>
+    <TextView
+        android:id="@+id/reg_university"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My university"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Clinic Address"/>
+    <TextView
+        android:id="@+id/reg_clinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My clinic address"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Birth date"/>
+    <TextView
+        android:id="@+id/reg_birth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1/11/1700"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Government"/>
+    <TextView
+        android:id="@+id/reg_gover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My government"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Password"/>
+    <TextView
+        android:id="@+id/reg_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My password"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Gender"/>
+    <TextView
+        android:id="@+id/reg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="female"
+        android:layout_marginStart="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Front ID Photo"/>
+
+    <ImageView
+        android:id="@+id/reg_front_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Back ID Photo"/>
+
+    <ImageView
+        android:id="@+id/reg_back_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Front License Photo"/>
+
+    <ImageView
+        android:id="@+id/reg_front_lin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="8dp"
+        android:text="Back License Photo"/>
+
+    <ImageView
+        android:id="@+id/reg_back_lin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
+</ScrollView>

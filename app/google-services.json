@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "968212774876",
+    "firebase_url": "https://taskone-c2316.firebaseio.com",
+    "project_id": "taskone-c2316",
+    "storage_bucket": "taskone-c2316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968212774876:android:cf0b2ad438c6ea25",
+        "android_client_info": {
+          "package_name": "com.example.android.taskone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968212774876-9c90tf0154fj90sco51ggqt0gsm7vkc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.taskone",
+            "certificate_hash": "988e09d0e63de624cfff9864d6b0ee5e11404eaf"
+          }
+        },
+        {
+          "client_id": "968212774876-raqe1lqcr0elrfdhia61qrlpf6t5ebsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoH5gZhXCvdU-hJ3vviftejiulalUbHlM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968212774876-raqe1lqcr0elrfdhia61qrlpf6t5ebsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
